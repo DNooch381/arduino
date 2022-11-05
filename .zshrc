@@ -22,9 +22,10 @@ alias cp='cp -i' #-i confirms file overwrite
 alias mv='mv -i'
 alias die='kill -9 %%' #kill = stop running, %% = most recent process, -9 = cannot block action
 alias rt='root -b -l -q' #-b = batch mode (aka: no graphics), -l = don't show splash screen (aka: blue logo of Root), -q = quit when complete, whole command is then followed by the intended file name
+alias back='cd ..'
 
 ##-- PYTHON --##
-#alias py3='python3'
+alias py3='python3'
 
 ##--GIT/GITHUB--##
 
